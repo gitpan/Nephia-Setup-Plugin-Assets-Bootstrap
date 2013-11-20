@@ -1,5 +1,5 @@
 {
-   "abstract" : "Download and deploy twitter-bootstrap into your webapp",
+   "abstract" : "Deploy twitter-bootstrap(v.2.3.2) into your webapp",
    "author" : [
       "ytnobody <ytnobody@gmail.com>"
    ],
@@ -40,6 +40,7 @@
       },
       "runtime" : {
          "requires" : {
+            "MIME::Base64" : "0",
             "Nephia" : "0.80",
             "perl" : "5.008005"
          }
@@ -53,7 +54,10 @@
    "provides" : {
       "Nephia::Setup::Plugin::Assets::Bootstrap" : {
          "file" : "lib/Nephia/Setup/Plugin/Assets/Bootstrap.pm",
-         "version" : "0.01"
+         "version" : "0.02"
+      },
+      "Nephia::Setup::Plugin::Assets::Bootstrap::Archive_2_3_2" : {
+         "file" : "lib/Nephia/Setup/Plugin/Assets/Bootstrap/Archive_2_3_2.pm"
       }
    },
    "release_status" : "stable",
@@ -67,5 +71,5 @@
          "web" : "https://github.com/nephia/Nephia-Setup-Plugin-Assets-Bootstrap"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
