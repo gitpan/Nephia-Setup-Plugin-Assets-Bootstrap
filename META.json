@@ -44,13 +44,13 @@
       "runtime" : {
          "requires" : {
             "File::ShareDir" : "0",
-            "Nephia" : "0.80",
+            "Nephia" : "0.87",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::File::ShareDir::Module" : "0",
+            "Test::File::ShareDir::Dist" : "0",
             "Test::More" : "0.98"
          }
       }
@@ -58,7 +58,7 @@
    "provides" : {
       "Nephia::Setup::Plugin::Assets::Bootstrap" : {
          "file" : "lib/Nephia/Setup/Plugin/Assets/Bootstrap.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
@@ -72,5 +72,5 @@
          "web" : "https://github.com/nephia/Nephia-Setup-Plugin-Assets-Bootstrap"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
