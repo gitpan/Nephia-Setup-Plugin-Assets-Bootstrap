@@ -1,12 +1,12 @@
 Build.PL
 Changes
 LICENSE
+MANIFEST
 META.json
 README.md
 cpanfile
 lib/Nephia/Setup/Plugin/Assets/Bootstrap.pm
-lib/Nephia/Setup/Plugin/Assets/Bootstrap/Archive_2_3_2.pm
+share/bootstrap-2.3.2.zip
 t/00_compile.t
 t/01_setup.t
 META.yml
-MANIFEST
